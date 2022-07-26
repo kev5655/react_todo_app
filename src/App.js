@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TodoList from './components/TodoList';
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="max-w-xl m-auto mt-20">
+        <TodoList/>
+      </div>
     </div>
   );
 }
