@@ -9,13 +9,13 @@ const Todo = ({description, done, index, onChangeTodo, onDeleteTodo}) => {
           ? 'flex justify-between items-center p-2 bg-[#2a9d8f] text-white' 
           : 'flex justify-between items-center p-2 bg-[#e76f51] text-white'
         } >
-        <h1 
+        <p 
           className='text-lg cursor-pointer'
           onClick={() => {
             onChangeTodo(index)
           }}>
           {description}
-        </h1> 
+        </p> 
         <button className='text-lg 
           rounded-xl 
           bg-gray-400 

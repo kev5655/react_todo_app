@@ -63,7 +63,7 @@ const TodoList = () => {
                             text-white 
                             py-4 
                             font-semibold">
-                <h1 className='text-3xl'>Unser Todo's</h1>
+                <h1 className='text-3xl'>Meine Todo's</h1>
                 <h2>Offene Todos: {getOpenCount}</h2>
                 <from className='grid grid-cols-3 p-2'>
                     <input type='text' 
